@@ -7,6 +7,9 @@ senkronize blok / yöntemi yürütmesine izin verirken, Semaphore n iş parçac�
 ve diğerlerini engeller.
 senkronize blog'da sadece 1 thread is yapabiliyorken Semaphore'da bu sayiyi kendim belirliyorum
 
+ThreadPool'da randevbu islemi yapiyorum 5 kisilik randevuda 3kisi calissin diger 2 islem bekliyor. thread beklemiyor islem bekliyor. thread 3islemini bitirince diger 2 isleme bakiyor
+Semaphore'da 5 ayri threadim var bu isi sadece izin belgesi olanlar yapoabilir yogunluk yapmayin diyoruz
+
 senaryo:deneme kabini/ödeme kasası
 Mağazanın 3 deneme kabini var. 5 kişi mağazanın deneme kabinini
 kullanmak istiyor. Bu 5 tane işlem için 5 thread kullanılsın.
