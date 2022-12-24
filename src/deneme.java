@@ -24,12 +24,6 @@ gereken müdahaleyi yapabileceğimiz anlamına geliyor.
 
     public static void main(String[] args) {
 
-        System.out.println(3*15);
-        System.out.println((15*24)/12);
-        System.out.println((15+24)/12);
-        System.out.println((15-24)/12);
-        System.out.println((15/24)/12);
-
 
         String[] stdList={"Rafael","Donatello","Leonardo","Michelangelo"};
         Double[] pointList={95.5,70.0,65.6,58.0};
