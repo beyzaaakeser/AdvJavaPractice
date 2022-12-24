@@ -30,8 +30,25 @@ gereken müdahaleyi yapabileceğimiz anlamına geliyor.
         System.out.println((15-24)/12);
         System.out.println((15/24)/12);
 
+
+        String[] stdList={"Rafael","Donatello","Leonardo","Michelangelo"};
+        Double[] pointList={95.5,70.0,65.6,58.0};
+        Character[] gradeList={'A','B','C','B'};
+
+        //1-tüm listeleri yazdır
+        printArray(stdList);
+        printArray(pointList);
+        printArray(gradeList);
+
+
+
     }
 
-
+    public static <T> void printArray(T[] array){
+        for (int i=0; i< array.length ; i++){
+            System.out.print(array[i]+ " ");
+        }
+        System.out.println();
+    }
 
 }
