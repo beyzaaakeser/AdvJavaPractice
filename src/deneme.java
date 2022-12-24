@@ -25,6 +25,10 @@ gereken müdahaleyi yapabileceğimiz anlamına geliyor.
     public static void main(String[] args) {
 
         System.out.println(3*15);
+        System.out.println((15*24)/12);
+        System.out.println((15+24)/12);
+        System.out.println((15-24)/12);
+        System.out.println((15/24)/12);
 
     }
 
